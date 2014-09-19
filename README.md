@@ -1,8 +1,8 @@
-rdiablo-mumble-bot
-==================
+txmumble
+========
 
-Used for kicking people running on open proxies. Open proxy detection via
-blacklist DNS.
+Library for python twisted for communicating with mumble. Taken from 
+https://github.com/Chaosteil/rdiablo-mumble-bot
 
 Before running, make sure that google protobuf is installed as well as twisted.
 
