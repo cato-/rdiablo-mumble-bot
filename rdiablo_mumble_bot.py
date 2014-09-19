@@ -20,9 +20,9 @@ from twisted.internet import reactor
 from twisted.internet.protocol import ClientFactory
 from twisted.names import client as DNSClient
 
-from mumble_protocol import MumbleProtocol, mumble_connect
+from txmumble.protocol import MumbleProtocol, mumble_connect
 
-import Mumble_pb2
+import txmumble.Mumble_pb2
 import socket
 
 
